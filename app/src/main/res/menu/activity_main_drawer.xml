@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/cat_business"
+            android:icon="@android:drawable/star_on"
+            android:title="@string/cat_business" />
+        <item
+            android:id="@+id/cat_entertainment"
+            android:icon="@android:drawable/star_on"
+            android:title="@string/cat_entertainment" />
+        <item
+            android:id="@+id/cat_general"
+            android:icon="@android:drawable/star_on"
+            android:title="@string/cat_general" />
+        <item
+            android:id="@+id/cat_health"
+            android:icon="@android:drawable/star_on"
+            android:title="@string/cat_health" />
+        <item
+            android:id="@+id/cat_science"
+            android:icon="@android:drawable/star_on"
+            android:title="@string/cat_science" />
+        <item
+            android:id="@+id/cat_sports"
+            android:icon="@android:drawable/star_on"
+            android:title="@string/cat_sports" />
+
+        <item
+            android:id="@+id/cat_technology"
+            android:icon="@android:drawable/star_on"
+            android:title="@string/cat_technology" />
+    </group>
+
+</menu>
